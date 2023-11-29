@@ -1,0 +1,245 @@
+@media (max-width:3000px) {
+    .shoptext{
+        font-size: 74px;
+    }
+    .album-grid{
+       grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    }
+    .box{
+        width: 325px;
+        height: 550px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 43px;
+    }
+    .album-artist{
+        font-size: 38px;
+    }
+    .album-price{
+        margin-top:100px;
+    }
+}
+
+
+@media (max-width:2000px) {
+    .shoptext{
+        font-size: 74px;
+    }
+    .album-grid{
+       grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    }
+    .box{
+        width: 325px;
+        height: 550px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 43px;
+    }
+    .album-artist{
+        font-size: 38px;
+    }
+    .album-price{
+        margin-top:100px;
+    }
+}
+
+@media (max-width:1800px) {
+    .shoptext{
+        font-size: 68px;
+    }
+    .album-grid{
+       grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    }
+    .box{
+        width: 300px;
+        height: 500px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 40px;
+    }
+    .album-artist{
+        font-size: 30px;
+    }
+    .album-price{
+        margin-top:100px;
+    }
+}
+
+@media (max-width:1600px) {
+    .shoptext{
+        font-size: 60px;
+    }
+
+    .album-grid{
+       grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+    .box{
+        width: 325px;
+        height: 525px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 35px;
+    }
+    .album-artist{
+        font-size: 27px;
+    }
+    .album-price{
+        margin-top:120px;
+    }
+}
+
+@media (max-width:1400px) {
+    .shoptext{
+        font-size: 43px;
+    }
+
+    .album-grid{
+        row-gap: 28px;
+    }
+    .box{
+        width: 250px;
+        height: 375px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 30px;
+    }
+    .album-price{
+        margin-top:40px;
+    }
+}
+
+@media (max-width:1200px) {
+    .shoptext{
+        font-size: 43px;
+    }
+
+    .album-grid{
+        row-gap: 28px;
+    }
+    .box{
+        width: 200px;
+        height: 300px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 32px;
+    }
+    .album-artist{
+        font-size: 20px;
+    }
+    .album-price{
+        margin-top:15px;
+    }
+}
+
+@media (max-width:1000px) {
+    .shoptext{
+        font-size: 37px;
+    }
+
+    .album-grid{
+        row-gap: 30px;
+    }
+    .box{
+        width: 175px;
+        height: 275px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 24px;
+    }
+    .album-price{
+        margin-top:50px;
+    }
+}
+
+@media (max-width:800px) {
+    .shoptext{
+        font-size: 34px;
+    }
+
+    .album-grid{
+       grid-template-columns: 1fr 1fr;
+    }
+    .box{
+        width: 250px;
+        height: 350px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 24px;
+    }
+    .album-price{
+        margin-top:60px;
+    }
+}
+
+@media (max-width:600px) {
+    .shoptext{
+        font-size: 37px;
+    }
+
+    .album-grid{
+        row-gap: 30px;
+    }
+    .box{
+        width: 175px;
+        height: 275px;
+    }
+    .album-cover{
+        margin-bottom:18px;
+    }
+    .album-title,.album-price{
+        font-size: 24px;
+    }
+    .album-price{
+        margin-top:50px;
+    }
+}
+
+@media (max-width:400px) {
+    .shoptext{
+        font-size: 34px;
+    }
+
+    .album-grid{
+        row-gap: 30px;
+    }
+    .box{
+        width: 110px;
+        height: 150px;
+    }
+    .album-artist{
+        font-size: 10px;
+    }
+    .album-cover{
+        margin-bottom:4px;
+    }
+    .album-title,.album-price{
+        font-size: 12px;
+    }
+    .album-price{
+        margin-top:40px;
+    }
+}

@@ -1,0 +1,220 @@
+@media (max-width:1120px){
+    .headline{
+        font-size:50px;
+    }
+    .title{
+       font-size:  30px;
+    }
+    .story{
+        font-size: 16px;
+    }
+
+    .CEO-circle p{
+        font-size: 50px;
+    }
+    .name{
+        font-size: 26px;
+    }
+    .info{
+        font-size: 18px;
+    }
+    .editor-box{
+        width:150px;
+        height:150px
+    }
+    .editor p{
+        font-size: 56px;
+    }
+
+    .editor-box p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1000px){
+    .headline{
+        font-size:48px;
+    }
+    .title{
+       font-size:  28px;
+    }
+    .story{
+        font-size: 14px;
+    }
+
+    .CEO-circle p{
+        font-size: 48px;
+    }
+    .name{
+        font-size: 24px;
+    }
+    .info{
+        font-size: 16px;
+    }
+
+    .editor p{
+        font-size: 54px;
+    }
+
+    .editor-box p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:800px){
+    .headline{
+        font-size:43px;
+    }
+    .title{
+       font-size:  23px;
+    }
+    .story{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .CEO-circle p{
+        font-size: 37px;
+    }
+    .name{
+        font-size: 19px;
+    }
+    .info{
+        font-size: 14px;
+    }
+
+    .editor p{
+        font-size: 49px;
+    }
+
+    .editor-box p{
+        font-size: 13px;
+    }
+
+    .editor-box{
+        width:120px;
+        height: 120px;
+    }
+}
+
+@media (max-width:800px){
+    .headline{
+        font-size:43px;
+    }
+    .title{
+       font-size:  23px;
+    }
+    .story{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .CEO-circle p{
+        font-size: 37px;
+    }
+    .name{
+        font-size: 19px;
+    }
+    .info{
+        font-size: 14px;
+    }
+
+    .editor p{
+        font-size: 49px;
+    }
+    .editor-picture{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+    .editor-box p{
+        font-size: 23px;
+    }
+
+    .editor-box{
+        margin-top: 30px;
+        width:200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:600px){
+    .headline{
+        font-size:38px;
+    }
+    .title{
+       font-size: 14px;
+    }
+    .story{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .CEO-circle p{
+        font-size: 32px;
+    }
+    .CEO-circle img{
+        width: 200px;
+        height: 200px;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .info{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .editor p{
+        font-size: 49px;
+    }
+    .editor-box p{
+        font-size: 23px;
+    }
+
+    .editor-box{
+        margin-top: 30px;
+        width:140px;
+        height: 140px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width:400px){
+    .headline{
+        font-size:33px;
+    }
+    .title{
+       font-size: 10px;
+    }
+    .story{
+        margin-top: 8px;
+        font-size: 8px;
+    }
+
+    .CEO-circle p{
+        font-size: 27px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .info{
+        font-size: 8px;
+    }
+
+    .editor p{
+        font-size: 40px;
+    }
+    .editor-box p{
+        font-size: 23px;
+    }
+
+    .editor-box{
+        margin-top: 30px;
+        width:100px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+}

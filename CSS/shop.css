@@ -1,0 +1,240 @@
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: #314759;
+}
+
+
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.left-section{
+    width: 200px;
+    min-width: 100px;
+    margin-left: 30px;
+}
+
+.middle-section{
+    align-items: center;
+    margin-left: 60px;
+    min-width: 400px;
+    margin-right: 40px;
+    padding-right: 2px;
+}
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    margin-top: 16px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+    font-size: 22px;
+    align-items: center;
+}
+button {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    color: #314759;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.SignIn{
+    font-size: 22px;
+    width: 145px;
+    height: 45px;
+}
+
+button:hover{
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.8);
+}
+button:active{
+    background-color: #314759;
+    color: white;
+}
+
+.shop{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.shoptext{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.album-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    row-gap: 38px;
+}
+
+.box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:250px;
+    height: 350px;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    box-shadow: 2px 9px 33px -5px rgba(0,0,0,0.69); 
+    transition: all .3s;
+}
+.box:hover{
+    transition: all .3s ease-out;
+    transform: scale(1.1);
+}
+
+.album-cover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+
+.album-title, .album-artist, .album-price{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.album-artist{
+    font-size: 22px;
+    color:rgb(184, 184, 184);
+}
+.album-price,.album-title{
+    font-size: 34px;
+    font-weight: 500;
+}
+.album-price{
+    margin-top: 80px;
+    text-decoration: none;
+}
+
+.disc{
+    font-size: 17px;
+    color: gray;
+}
+
+.box .album-price a, .box a {
+    text-decoration: none;
+    color: white;
+    
+}
+.text:hover {
+text-decoration: underline whitesmoke;
+}
+
+
+.container4{
+    margin-top: 80px;
+    height:500px;
+    background-image: linear-gradient(to bottom, #0d0000, #160808, #1d100f, #231515, #2a1919);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.logo-container{
+    width:65%;
+}
+.img-logo-footer{
+    width:100%;
+}
+.container5{
+    height:100px;
+    background-color: #0d0000;
+}
+
+.menu,.connect,.disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+a{
+    text-decoration: none;
+}
+
+.visit{
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.head{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.options{
+    color:rgb(179, 179, 179);
+    font-size:12px;
+    margin-top: 14px;
+}
+
+.options{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.connect p{
+    margin-top: 67px;
+    margin-bottom: 23px;
+}
+.connect-logo-container{
+    width: 40px;
+    margin-bottom: 12px;
+}
+.logo-connect{
+    width:100%;
+}
+
+.disclaimer{
+    margin-top: 67px;
+}

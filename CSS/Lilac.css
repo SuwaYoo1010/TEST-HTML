@@ -1,0 +1,369 @@
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: #314759;
+}
+
+
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.left-section{
+    width: 200px;
+    min-width: 50px;
+    margin-left: 30px;
+}
+
+.middle-section{
+    align-items: center;
+    margin-left: 60px;
+    min-width: 200px;
+    margin-right: 40px;
+    padding-right: 2px;
+}
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    margin-top: 16px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+    font-size: 22px;
+    align-items: center;
+}
+button {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    color: #314759;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.SignIn{
+    font-size: 22px;
+    width: 145px;
+    height: 45px;
+}
+
+.SignIn:hover{
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.8);
+}
+.SignIn:active{
+    background-color: #314759;
+    color: white;
+}
+
+.text:hover {
+    text-decoration: underline whitesmoke;
+}
+
+
+.container1{
+    display:grid;
+    grid-template-columns: 450px  1fr;
+    height:450px;
+    background-image: linear-gradient(to bottom, #314759, #62647e, #99819c, #d0a1b1, #ffc6c1);
+}
+
+.album-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.big-album{
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px -1px 13px 2px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 1px -1px 13px 2px rgba(0,0,0,0.57);
+    -moz-box-shadow: 1px -1px 13px 2px rgba(0,0,0,0.57); 
+}
+
+.small-album{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 0px;
+    border: solid black 2px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-left: 157px;
+}
+
+.title,.price{
+    margin-left: 0px;
+    font-size: 24px;
+    color: white;
+}
+
+.title,.price{
+    margin-bottom: 46px;
+}
+.price,.selection{
+    margin-left: 0px;
+}
+
+label{
+    color: white;
+    margin-left: 0px;
+    font-size: 24px;
+}
+select{
+    margin-left: 24px;
+    text-align: left;
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.quantity{
+    margin-left: 18px;
+    margin-top: 25px;
+}
+
+.cart{
+    margin-top: 45px;
+    margin-left: 0px;
+    color: rgb(0, 0, 0);
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    font-size: 16px;
+}
+.cart {
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right top, #ffc6c1, #ffd3dc, #fbe3f0, #f9f2fb, #ffffff);    
+}
+
+
+.cart:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 15px 0 rgba(255, 198, 193, 0.7);
+    transition: all .4s ease-out ;
+}
+
+.cart::after {
+    box-shadow: 0 4px 15px 0 rgba(255, 198, 193, 0.7);
+    transition: all .4s ease-out ;
+}
+
+.container2{
+    padding-top: 44px;
+    padding-bottom: 44px;
+    background-image: linear-gradient(to top, #314759, #62647e, #99819c, #d0a1b1, #ffc6c1);
+}
+.des-tl{
+    display:flex;
+    flex-direction: row;
+    color: black;
+}
+.des,.tl{
+    margin-left: 96px;
+    font-size: 23px;
+}
+
+.des-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 24px;
+    border-top-color:#314759;
+    border-top-width: 4px;
+    border-top-style: solid;
+}
+.left,.right{
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    padding: 4px;
+    color: white;
+}
+.left{
+    background-color:#273846;
+}
+.right{
+    margin-left: 24px;
+    background-color: #43637d;
+}
+.tl{
+    display: inline-block;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    color: white;
+    margin-left: 3px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+.related{
+    color: white;
+    font-size: 24px;
+    margin-left: 75px;
+}
+.album-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    padding: 30px;
+    row-gap: 50px;
+}
+
+.box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:170px;
+    height:200px;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    box-shadow: 2px 9px 33px -5px rgba(0,0,0,0.69);
+}
+
+.album-cover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    width: 50%;
+}
+
+.album-title, .album-artist, .album-price{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.album-title, .album-price{
+    font-size: 20px;
+}
+.album-artist{
+    font-size: 16px;
+}
+
+.album-price{
+    margin-top: 45px;
+    text-decoration: none;
+}
+
+.box .album-price a, .box a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.container4{
+    margin-top: 80px;
+    height:500px;
+    background-image: linear-gradient(to bottom, #0d0000, #160808, #1d100f, #231515, #2a1919);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.logo-container{
+    width:65%;
+}
+.img-logo-footer{
+    width:100%;
+}
+.container5{
+    height:100px;
+    background-color: #0d0000;
+}
+
+.menu,.connect,.disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.visit{
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.head{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.options{
+    color:rgb(179, 179, 179);
+    font-size:12px;
+    margin-top: 14px;
+}
+
+.options{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.connect p{
+    margin-top: 67px;
+    margin-bottom: 23px;
+}
+.connect-logo-container{
+    width: 40px;
+    margin-bottom: 12px;
+}
+.logo-connect{
+    width:100%;
+}
+
+.disclaimer{
+    margin-top: 67px;
+}
+
+a{
+    text-decoration: none;
+}

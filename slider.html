@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/slider.css">
+</head>
+<body>
+
+<div class="header">
+        <div class="left-section">
+            <img src="IMAGE/ARTIST/logo/GRAPHIC ONLY.png" alt="Logo" class="logo">
+        </div>    
+        <div class="middle-section" id="middle-section">
+            <nav>
+                <div class="menu-icon" id="menu-icon">
+                    <img src="IMAGE/ARTIST/logo/main-menu.png" alt="Menu Icon" class="menu-icon-img">
+                </div>
+                    <ul class="menu-items" id="menu-items">
+                    <li><a href="HOMEPAGE.HTML"><span class="text">HOME</span></a></li>
+                    <li><a href="shop.html"><span class="text">SHOP</span></a></li>
+                    <li><a href="Artist.html"><span class="text">ARTISTS</span></a></li>
+                    <li><a href="orders.html"><span class="text">ORDERS</span></a></li>
+                    <li><a href="#"><button class="button SignIn">SIGN IN</button></a></li>
+                </ul>
+            </nav>
+        </div>
+</div>
+<script>
+    // JavaScript for toggling menu visibility
+    document.addEventListener('DOMContentLoaded', function () {
+        var menuIcon = document.getElementById('menu-icon');
+        var menuItems = document.getElementById('menu-items');
+        var middleSection = document.getElementById('middle-section');
+
+        menuIcon.addEventListener('click', function () {
+            menuItems.classList.toggle('active');
+        });
+
+        // Function to hide middle section on smaller screens
+        function handleMediaQuery(mql) {
+            if (mql.matches) {
+                middleSection.style.display = 'none';
+            } else {
+                middleSection.style.display = 'block';
+            }
+        }
+
+        var mql = window.matchMedia("(max-width: 768px)");
+        handleMediaQuery(mql);
+        mql.addListener(handleMediaQuery);
+    });
+</script>
+
+</body>
+</html>

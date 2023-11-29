@@ -1,0 +1,351 @@
+@media (max-width:1206px){
+    .header{
+        margin-top: 10px;
+    }
+    .left-section{
+        width:400px;
+        margin-left:10px;
+        margin-right:10px ;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    .middle-section{
+        margin: 0;
+        padding-right: 20px;
+        min-width: 740px;
+        width: 800px;
+    }
+    .nav{
+        margin-top: 16px;
+    }
+    nav ul li{
+        margin-left: 65px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 28px;
+        align-items: center;
+    }
+    .SignIn{
+        font-size: 28px;
+        width: 110px;
+        height: 45px;
+    }
+    .container4{
+        height: 100vh;
+        }
+        
+        .container5{
+        height:20vh;
+        }
+        
+        .head{
+        font-size:24px;
+        }
+        
+        .options{
+        font-size:14px;
+        }
+}
+
+@media (max-width:956px){
+    .header{
+        margin-bottom: 30px;
+    }
+    .left-section{
+        width:350px;
+        margin-left:10px;
+        margin-right:10px ;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .middle-section{
+        margin: 0;
+        padding-right: 20px;
+        min-width: 480px;
+        width: 580px;
+    }
+
+    nav ul li{
+        margin-left: 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 24px;
+        align-items: center;
+    }
+    .SignIn{
+        font-size: 24px;
+        width: 100px;
+        height: 35px;
+    }
+    .container4{
+        margin-top: 60px;
+        height: 410px;
+        }
+        
+        .container5{
+        height:25vh;
+        }
+        
+    .head{
+    font-size:22px;
+    }
+        
+    .options{
+    font-size:12px;
+    }
+    .visit{
+        margin-top:54px;
+    }
+    .connect{
+        margin-bottom:22px;
+    }
+
+    .connect-logo-container{
+        width:40px;
+    }
+            
+}
+
+@media (max-width:773px){
+    .header{
+        margin-bottom: 0px;
+    }
+    .left-section{
+        width:80px;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .middle-section{
+        margin: 0;
+        padding-right: 20px;
+        min-width: 450px;
+        width: 693px;
+    }
+
+    nav ul li{
+        margin-left: 35px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 22px;
+        align-items: center;
+    }
+    .SignIn{
+        font-size: 22px;
+        width: 90px;
+        height: 35px;
+    }
+
+    .container4{
+        margin-top: 50px;
+        height: 315px;
+        }
+        
+        .container5{
+        height:10vh;
+        }
+        
+        .head{
+        font-size:14px;
+        }
+        
+        .options{
+        font-size:10px;
+        }
+     .visit{
+        margin-top:47px;
+    }
+    .connect{
+        margin-bottom:39px;
+    }
+    .disclaimer{
+        margin-top: 20px;
+    
+    }
+    .connect-logo-container{
+        width:35px;
+    }
+}
+
+@media (max-width:620px){
+    .header{
+        margin-bottom: 0px;
+    }
+    .left-section{
+        width:120px;
+        margin-left:10px;
+        margin-right:10px ;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .middle-section{
+        margin: 0;
+        padding-right: 10px;
+        min-width: 350px;
+        width: 495px;
+    }
+
+    nav ul li{
+        margin-left: 18px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 20px;
+        align-items: center;
+    }
+    .SignIn{
+        font-size: 20px;
+        width: 70px;
+        height: 30px;
+    }
+    .container4{
+        height: 300px;
+    }
+    .head{
+    font-size:16px;
+    }
+        
+    .options{
+    font-size:8px;
+    }
+    .visit{
+        margin-top:44px;
+    }
+    .connect{
+        margin-bottom:18px;
+    }
+
+    .connect-logo-container{
+        width:35px;
+    }
+
+}
+
+@media (max-width:500px){
+    .header{
+        margin-bottom: 0px;
+    }
+    .left-section{
+        width:30px;
+        min-width: 20px;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .middle-section{
+        padding-right: 10px;
+        min-width: 250px;
+        width: 400px;
+    }
+
+    nav ul li{
+        margin-left: 12px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 18px;
+        align-items: center;
+    }
+    .SignIn{
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+    }
+    .container4{
+    height: 250px;
+    }
+        
+    .container5{
+    height:30px;
+    }
+
+    .head{
+    font-size:12px;
+    }
+        
+    .options{
+    font-size:7px;
+    }
+    .visit{
+        margin-top:32px;
+    }
+    .connect{
+        margin-bottom:60px;
+    }
+
+    .connect-logo-container{
+        width:20px;
+    }
+}
+
+
+
+
+@media (max-width:400px) {
+    .left-section{
+        width:40px;
+        margin-left:10px;
+        margin-right:10px ;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    .middle-section{
+        margin: 0;
+        padding-right: 10px;
+        min-width: 190px;
+        width: 350px;
+    }
+
+    nav ul li{
+        margin-left: 10px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 13px;
+        align-items: center;
+    }
+    .SignIn{
+        font-size: 13px;
+        width: 49px;
+        height: 17px;
+    }
+    .container4{
+        margin-top: 0px;
+    }
+    .head{
+    font-size:10px;
+    }
+        
+    .options{
+    font-size:5.7px;
+    }
+    .visit{
+        margin-top:26px;
+    }
+    .connect{
+        margin-bottom:56px;
+    }
+
+    .connect-logo-container{
+        width:20px;
+    }
+}

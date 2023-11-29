@@ -1,0 +1,293 @@
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: #314759;
+}
+
+
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.left-section{
+    width: 200px;
+    min-width: 100px;
+    margin-left: 30px;
+}
+
+.middle-section{
+    align-items: center;
+    margin-left: 60px;
+    min-width: 400px;
+    margin-right: 40px;
+    padding-right: 2px;
+}
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    margin-top: 16px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+    font-size: 30px;
+    align-items: center;
+}
+button {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    color: #314759;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.SignIn{
+    font-size: 30px;
+    width: 145px;
+    height: 45px;
+}
+
+button:hover{
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.8);
+}
+button:active{
+    background-color: #314759;
+    color: white;
+}
+
+.top{
+    padding-bottom: 20px;
+    margin:0 auto;
+    background-image: linear-gradient(to bottom, #314759, #37394c, #382c3b, #342229, #2a1919);
+}
+
+.slider-container {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 2s ease;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.slide {
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex: 0 0 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.slider img {
+    border-radius: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.text:hover {
+    text-decoration: underline whitesmoke;
+}
+
+.album{
+    display: inline-block;
+    align-items: end;
+    width: 200px;
+    height: 200px;
+}
+
+.middle{
+    display: block;
+    align-items: center;
+    width:100%;
+}
+
+.body1,.body2{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.middle2{
+    padding-top: 120px;
+    background-image: linear-gradient(to top, #314759, #474e62, #5c5568, #6f5d6c, #7e676f);
+}
+.headline{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 84px;
+    color: rgba(242,237,220,255);
+    font-family: 'Vogue',sans-serif;
+    margin-bottom: 48px;
+}
+.middle2-container{
+    width: 95%;
+    height:700px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    justify-items: center;
+    align-items: center;
+}
+
+.Grid1, .Grid2, .Grid3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.GRID1PIC, .GRID3PIC{
+    margin-top: 8px;
+    width: 350px;
+    height: 300px;
+    align-items: center;
+}
+
+.GRID2PIC{
+    margin-top: 8px;
+    width: 500px;
+    height: 500px;
+}
+
+.middle2-container h3{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(58, 55, 55);
+    font-family: 'Bebas Neueu',sans-serif;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.middle2-container p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(58, 55, 55);
+    font-family: 'Bebas Neueu',sans-serif;
+    font-weight: 500;
+    margin-top: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container4{
+    margin-top: 80px;
+    height:500px;
+    background-image: linear-gradient(to bottom, #0d0000, #160808, #1d100f, #231515, #2a1919);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.logo-container{
+    width:65%;
+}
+.img-logo-footer{
+    width:100%;
+}
+.container5{
+    height:100px;
+    background-color: #0d0000;
+}
+
+.menu,.connect,.disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.visit{
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.head{
+    margin-bottom: 12px;
+    font-size: 27px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.options{
+    color:rgb(179, 179, 179);
+    font-size:16px;
+    margin-top: 14px;
+}
+
+.options{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.connect p{
+    margin-top: 67px;
+    margin-bottom: 23px;
+}
+.connect-logo-container{
+    width: 40px;
+    margin-bottom: 12px;
+}
+.logo-connect{
+    width:100%;
+}
+
+.disclaimer{
+    margin-top: 67px;
+}
+
+

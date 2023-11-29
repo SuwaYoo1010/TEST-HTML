@@ -1,0 +1,223 @@
+@media (max-width:1120px){
+    .demo-button,.book-button{
+        font-size: 11.5px;
+    }
+    .artist-top-container{
+        width: 200px;
+        height: 200px;  
+    }
+
+}
+@media (max-width:1060px){
+.artist-top-container{
+    width: 180px;
+    height: 180px;  
+    }
+    
+.title-album{
+    font-size: 46px;
+    }
+}
+
+@media (max-width:920px){
+    .demo-button,.book-button{
+        font-size: 9px;
+    }
+    .artist-top-container{
+        width: 170px;
+        height: 170px;  
+        }
+    
+}
+
+@media (max-width:870px){
+    .artist-top-container{
+        width: 168px;
+        height: 168px;  
+    }
+    .title-album{
+        font-size: 41px;
+    }
+}
+
+@media (max-width:850px){
+    .artist-top-container{
+        width: 155px;
+        height: 155px;  
+    }
+}
+
+
+
+@media (max-width:805px){
+    .demo-button,.book-button{
+        font-size: 7px;
+    }
+    .artist-top-container{
+        width: 140px;
+        height: 140px;  
+    }
+    .title-album{
+        font-size: 38px;
+    }
+
+}
+@media (max-width:720px){
+    .artist-top-container{
+        width: 130px;
+        height: 130px;  
+    }
+    .title-album{
+        font-size: 36px;
+    }
+    .title{
+        font-size: 18px;
+        color: white;
+    }
+    .price{
+        margin-top: 37px;
+        padding-top: 6%;
+        padding-left: 27px;
+        padding-bottom: 6%;
+        padding-right: 27px;
+        font-size: 12px;
+    } 
+    .product-grid{
+        padding-bottom: 35px;
+    }  
+
+}
+
+
+@media (max-width:680px){
+    .demo-button,.book-button{
+        font-size: 5.6px;
+    }
+    .artist-top-container{
+        width: 125px;
+        height: 125px;  
+    }
+    .product-grid{
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:640px){
+    .artist-top-container{
+        width: 120px;
+        height: 120px;  
+    }
+    .title-album{
+        font-size: 30px;
+    }
+    .product-grid{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .demo-button,.book-button{
+        top:35%;
+    }
+
+}
+
+@media (max-width:620px){
+    .demo-button,.book-button{
+        font-size: 5px;
+    }
+    .artist-top-container{
+        width: 110px;
+        height: 110px;  
+    }
+
+}
+
+@media (max-width:570px){
+    .demo-button,.book-button{
+        font-size: 5px;
+    }
+    .artist-name{
+        font-size: 54px;
+    }
+    .book-button{
+        right: 15%;
+    }
+    .artist-top-container{
+        width: 100px;
+        height: 100px;  
+    }
+    .product-grid{
+        padding-bottom: 25px;
+    }
+
+}
+@media (max-width:500px){
+    .artist-top-container{
+        width: 80px;
+        height: 80px;  
+    }
+    .top-headline,.sales{
+        font-size: 8px;
+    }
+    .title-album{
+        font-size: 24px;
+    }
+    .title{
+        font-size: 21px;
+        color: white;
+    }
+    .artist-name{
+        font-size: 58px;
+    }
+    .demo-button,.book-button{
+        font-size: 6px;
+        padding-left: 8px;
+        padding-top: 6px;
+        padding-right: 8px;
+        padding-bottom: 6px;
+    }
+    .product-grid{
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (max-width:400px){
+    .header{
+        margin-bottom: 10px;
+    }
+    .artist-top-container{
+        width: 70px;
+        height: 70px;  
+    }
+    .top-headline,.sales{
+        font-size: 7px;
+    }
+    .title-album{
+        font-size: 21px;
+    }
+    .title{
+        font-size: 18px;
+        color: white;
+    }
+    .artist-name{
+        font-size: 36px;
+    }
+    .demo-button,.book-button{
+        font-size: 6px;
+        top: 36%;
+        padding-left: 6px;
+        padding-top: 3px;
+        padding-right: 6px;
+        padding-bottom: 3px;
+    }
+    .book-button{
+        right: 18%;
+    }
+    .product-grid{
+        padding-bottom: 20px;
+    }
+}

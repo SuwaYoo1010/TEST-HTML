@@ -1,0 +1,373 @@
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: #314759;
+}
+
+
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.left-section{
+    width: 200px;
+    min-width: 50px;
+    margin-left: 30px;
+}
+
+.middle-section{
+    align-items: center;
+    margin-left: 60px;
+    min-width: 200px;
+    margin-right: 40px;
+    padding-right: 2px;
+}
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    margin-top: 16px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+    font-size: 22px;
+    align-items: center;
+}
+button {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    color: #314759;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.SignIn{
+    font-size: 22px;
+    width: 145px;
+    height: 45px;
+}
+
+.SignIn:hover{
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.8);
+}
+.SignIn:active{
+    background-color: #314759;
+    color: white;
+}
+
+.container2{
+    margin:0 auto;
+}
+.artist-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width:100%;
+    position: relative;
+}
+.artist-banner img{
+    width:100%;
+    height:100%;
+}
+
+.artist-name{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 64px;
+    color: whitesmoke;
+}
+
+.demo-button{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    color: black;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+.svg-icon {
+ width: 1em;
+  height: 1em;
+}
+  
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: black;
+}
+  
+.svg-icon circle {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.demo-text{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.book-button{
+    position: absolute;
+    top: 30%;
+    right: 14%;
+    color: black;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -11%;
+}
+  
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+ fill: black;
+}
+  
+.svg-icon circle {
+stroke: black;
+stroke-width: 1;
+}
+
+.artist-banner button:hover{
+    box-shadow: 4px 5px 13px -1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 4px 5px 13px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 5px 13px -1px rgba(0,0,0,0.5);
+}
+
+.artist-banner button:active{
+    color: lightpink;
+    background-color: #314759;
+}
+
+.artist-top{
+    position: absolute;
+    bottom: 8%;
+    right: 2%;
+}
+
+.artist-top-container{
+    width: 210px;
+    height: 210px;
+    box-shadow: 6px 5px 27px 1px rgba(0,0,0,0.65);
+-webkit-box-shadow: 6px 5px 27px 1px rgba(0,0,0,0.65);
+-moz-box-shadow: 6px 5px 27px 1px rgba(0,0,0,0.65);
+}
+
+.album-cover-top{
+    object-fit: cover;
+    width: 100%;
+}
+
+.top-headline, .title-album, .sales{
+    position: absolute;
+}
+
+.top-headline{
+    bottom: 36.7%;
+    right: 22%;
+    color: rgb(178, 176, 176);
+}
+
+.title-album{
+    bottom: 26%;
+    right: 22%;
+    font-size: 52px;
+    color: white;
+}
+.sales{
+    bottom: 23%;
+    right: 22%;
+    color: rgb(178, 176, 176);
+}
+.product-grid{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.column1,.column2{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.album-container{
+    width:150px;
+    height: 150px;
+}
+
+.album-picture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.album-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 24px;
+    color: white;
+}
+
+.price{
+    margin-top: 45px;
+    color: rgb(0, 0, 0);
+    padding-top: 8%;
+    padding-left: 42px;
+    padding-bottom: 8%;
+    padding-right: 42px;
+    font-size: 16px;
+}
+.price {
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right top, #ffc6c1, #ffd3dc, #fbe3f0, #f9f2fb, #ffffff);    
+}
+
+
+.price:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 15px 0 rgba(255, 198, 193, 0.7);
+    transition: all .4s ease-out ;
+}
+
+.price::after {
+    box-shadow: 0 4px 15px 0 rgba(255, 198, 193, 0.7);
+    transition: all .4s ease-out ;
+}
+
+.container4{
+    margin-top: 80px;
+    height:500px;
+    background-image: linear-gradient(to bottom, #0d0000, #160808, #1d100f, #231515, #2a1919);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.logo-container{
+    width:65%;
+}
+a{
+    text-decoration: none;
+}
+.img-logo-footer{
+    width:100%;
+}
+.container5{
+    height:100px;
+    background-color: #0d0000;
+}
+
+.menu,.connect,.disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.visit{
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.head{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.options{
+    color:rgb(179, 179, 179);
+    font-size:12px;
+    margin-top: 14px;
+}
+
+.options{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.connect p{
+    margin-top: 67px;
+    margin-bottom: 23px;
+}
+.connect-logo-container{
+    width: 40px;
+    margin-bottom: 12px;
+}
+.logo-connect{
+    width:100%;
+}
+
+.disclaimer{
+    margin-top: 67px;
+}
+
+

@@ -1,0 +1,229 @@
+@media (max-width:1200px) {
+    .album-container{
+        margin-left: 100px;
+    }
+    .info-container{
+        margin-left: 116px;
+    }
+    .des,.tl{
+        margin-left: 76px;
+    }
+}
+
+@media (max-width:1000px) {
+    .album-container{
+        margin-left: 76px;
+    }
+    .info-container{
+        margin-left: 72px;
+    }
+    .des,.tl{
+        margin-left: 52px;
+    }
+    .box{
+        width: 140px;
+        height: 170px;
+    }
+    .album-cover{
+        margin-bottom: 12px;
+    }
+    .album-title, .album-price{
+        font-size: 18px;
+    }
+    .album-artist{
+        font-size: 14px;
+    }
+    .album-price{
+        margin-top: 41px;
+    }
+}
+
+@media (max-width:800px) {
+    .container1{
+        grid-template-columns: 375px 1fr;
+    }
+    .album-container{
+        margin-left: 40px;
+    }
+    label{
+        font-size: 20px;
+    }
+    select{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .info-container{
+        margin-top: 0px;
+        margin-left: 36px;
+    }
+    .title,.price{
+        font-size: 20px;
+    }
+    .des,.tl{
+        margin-left: 23px;
+        font-size: 13px;
+    }
+    .box{
+        width: 100px;
+        height: 140px;
+    }
+    .album-cover{
+        margin-bottom: 8px;
+    }
+    .album-title, .album-price{
+        font-size: 14px;
+    }
+    .album-artist{
+        font-size: 10px;
+    }
+    .album-price{
+        margin-top: 37px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .container1{
+        grid-template-columns: 200px 1fr;
+        height: 300px;
+    }
+    .album-container{
+        margin-left: 20px;
+    }
+    .big-album{
+        width: 150px;
+        height: 150px;
+    }
+    .small-album{
+        width: 55px;
+        height: 55px;
+    }
+    label{
+        font-size: 18px;
+    }
+    select{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .info-container{
+        margin-top: 0px;
+        margin-left: 26px;
+    }
+    .title,.price{
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+    .quantity{
+        margin-top: 15px;
+    }
+    .cart{
+        margin-top: 25px;
+    }
+
+    .container2{
+        padding-top: 0px;
+    }
+    .des-tl{
+        flex-direction: column;
+    }
+
+    .des,.tl{
+        margin-left: 23px;
+        font-size: 23px;
+        margin-top: 24px;
+    }
+    .left,.right,.center{
+        font-size:13px;
+    }
+    .box{
+        width: 100px;
+        height: 140px;
+    }
+    .album-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .album-cover{
+        margin-bottom: 8px;
+    }
+    .album-title, .album-price{
+        font-size: 14px;
+    }
+    .album-artist{
+        font-size: 10px;
+    }
+    .album-price{
+        margin-top: 37px;
+    }
+}
+
+
+
+@media (max-width:400px) {
+    .container1{
+        grid-template-columns: 150px 1fr;
+        height: 200px;
+    }
+    .album-container{
+        margin-left: 40px;
+    }
+    .big-album{
+        width: 100px;
+        height: 100px;
+    }
+    .small-album{
+        width: 25px;
+        height: 25px;
+    }
+    label{
+        font-size: 10px;
+    }
+    select{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .cart{
+        font-size: 10px;
+    }
+    .info-container{
+        margin-top: 0px;
+        margin-left: 26px;
+    }
+    .title,.price{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .container2{
+        padding-top: 0px;
+    }
+    .des-tl{
+        flex-direction: column;
+    }
+
+    .des,.tl{
+        margin-left: 23px;
+        font-size: 17px;
+        margin-top: 24px;
+    }
+    .left,.right,.center{
+        font-size:9px;
+    }
+    .box{
+        width: 80px;
+        height: 120px;
+    }
+    .album-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .album-cover{
+        margin-bottom: 8px;
+    }
+    .album-title, .album-price{
+        font-size: 14px;
+    }
+    .album-artist{
+        font-size: 10px;
+    }
+    .album-price{
+        margin-top: 37px;
+    }
+}

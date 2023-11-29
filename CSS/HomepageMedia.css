@@ -1,0 +1,244 @@
+@media (max-width:1200px) {
+    .middle-section{
+        margin-left: 12px;
+    }
+    .middle2{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .middle2-container{
+        width: 85%;
+        height: 600px;
+        padding-top: -50px;
+    }
+    .GRID1PIC, .GRID3PIC{
+        width: 190px;
+        height: 190px;
+        align-items: center;
+    }
+    .headline{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 69px;
+        color: rgba(242,237,220,255);
+        font-family: 'Vogue',sans-serif;
+        margin-bottom: 18px;
+    }
+    .GRID2PIC{
+        width: 270px;
+        height: 270px;
+    }
+
+    .middle2-container h3{
+        font-size: 26px;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .middle2-container p{
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 6px;
+    }
+}
+
+@media (max-width:1000px) {
+    .middle-section{
+        margin-left: 12px;
+    }
+    .middle2{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .middle2-container{
+        width: 85%;
+        height: 600px;
+        padding-top: -20px;
+    }
+    .GRID1PIC, .GRID3PIC{
+        width: 160px;
+        height: 160px;
+        align-items: center;
+    }
+    .headline{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 62px;
+        color: rgba(242,237,220,255);
+        font-family: 'Vogue',sans-serif;
+        margin-bottom: 18px;
+    }
+    .GRID2PIC{
+        width: 220px;
+        height: 220px;
+    }
+
+    .middle2-container h3{
+        font-size: 24px;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .middle2-container p{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 6px;
+    }
+
+}
+@media (max-width:800px) {
+    .middle-section{
+        margin-left: 12px;
+    }
+    .middle2{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .middle2-container{
+        width: 85%;
+        height: 400px;
+        padding-top: 20px;
+    }
+    .GRID1PIC, .GRID3PIC{
+        margin-top: 10px;
+        width: 130px;
+        height: 130px;
+        align-items: center;
+    }
+    .headline{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 55px;
+        color: rgba(242,237,220,255);
+        font-family: 'Vogue',sans-serif;
+        margin-bottom: 18px;
+    }
+    .GRID2PIC{
+        width: 210px;
+        height: 210px;
+    }
+
+    .middle2-container h3{
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .middle2-container p{
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: 6px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .middle-section{
+        margin-left: 12px;
+    }
+    .middle2{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .middle2-container{
+        width: 85%;
+        height: 950px;
+        border: none;
+        border-radius: 20px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2px;
+        justify-items: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .GRID1PIC, .GRID3PIC{
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+        align-items: center;
+    }
+    .headline{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 50px;
+        color: rgba(242,237,220,255);
+        font-family: 'Vogue',sans-serif;
+        margin-bottom: 30px;
+    }
+    .GRID2PIC{
+        width: 200px;
+        height: 200px;
+    }
+
+    .middle2-container h3{
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .middle2-container p{
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 17px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .middle-section{
+        margin-left: 10px;
+    }
+    .middle2{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .middle2-container{
+        width: 85%;
+        height: 800px;
+        border: none;
+        border-radius: 20px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2px;
+        justify-items: center;
+        align-items: center;
+    }
+    .GRID1PIC, .GRID3PIC{
+        margin-top: 8px;
+        width: 120px;
+        height: 120px;
+        align-items: center;
+    }
+    .headline{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        color: rgba(242,237,220,255);
+        font-family: 'Vogue',sans-serif;
+        margin-bottom: 24px;
+    }
+    .GRID2PIC{
+        margin-top: 8px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .middle2-container h3{
+        font-size: 22px;
+        font-weight: bolder;
+        margin-bottom: 12px;
+    }
+
+    .middle2-container p{
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 17px;
+    }
+}

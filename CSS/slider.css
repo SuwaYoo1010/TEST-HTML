@@ -1,0 +1,158 @@
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: #314759;
+}
+
+
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.left-section{
+    width: 200px;
+    min-width: 50px;
+    margin-left: 30px;
+}
+
+.middle-section{
+    align-items: center;
+    margin-left: 60px;
+    min-width: 200px;
+    margin-right: 40px;
+    padding-right: 2px;
+}
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    margin-top: 16px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+    font-size: 22px;
+    align-items: center;
+}
+button {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    color: #314759;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.SignIn{
+    font-size: 22px;
+    width: 145px;
+    height: 45px;
+}
+
+button:hover{
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.8);
+}
+button:active{
+    background-color: #314759;
+    color: white;
+}
+
+@media (max-width:1063px){
+    nav ul li{
+        margin-left: 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 12px;
+        align-items: center;
+    }
+    .SignIn{
+        font-size: 12px;
+        width: 105px;
+        height: 25px;
+    }
+}
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    /* Show the menu icon */
+    .menu-icon {
+        display: block;
+        /* Add styles for your menu icon as needed */
+    }
+
+    /* Hide the middle section on smaller screens */
+    #middle-section {
+        display: none;
+    }
+
+    .menu-icon-img{
+        width: 48px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .middle-section nav {
+        position: relative;
+    }
+
+    .menu-icon {
+        display: block;
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .menu-items {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+        width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .menu-items li {
+        display: block;
+        padding: 10px;
+    }
+
+    .menu-items li a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
+
+    /* Show menu items when the menu icon is clicked */
+    .menu-icon.active + .menu-items {
+        display: block;
+    }
+}
